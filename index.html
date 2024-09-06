@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flocus Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="pomodoro-timer">
+        <header>pmdr.</header>
+        <div class="session-toggle">
+            <button id="work-session">Work</button>
+            <button id="short-break">Short Break</button>
+            <button id="long-break">Long Break</button>
+        </div>
+        <div class="timer-display">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="settings">
+            <label for="workTime">Work: </label>
+            <input type="number" id="workTime" value="25">
+            <label for="shortBreakTime">Short Break: </label>
+            <input type="number" id="shortBreakTime" value="5">
+            <label for="longBreakTime">Long Break: </label>
+            <input type="number" id="longBreakTime" value="10">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
